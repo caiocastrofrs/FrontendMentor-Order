@@ -97,3 +97,14 @@ h2,
 .div-change {
     gap:15px;
 }
+
+@media (min-width:768px){
+    .card-container {
+        transform: scale(1.5);
+        margin-top:200px;
+    }
+    .attribution {
+        font-size:1.5rem;
+        margin:150px;
+    }
+}
