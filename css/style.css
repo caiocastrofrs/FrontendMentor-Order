@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    background-image: url('images/pattern-background-mobile.svg');
+    font-size:16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card-container {
+    margin: 100px auto;
+    border-radius:15px;
+    flex-direction: column;
+    box-shadow: 1px 2px 5px hsl(224, 23%, 55%);
+    max-width:250px;
+    height:430px;
+}
+
+.card-container img {
+    max-width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+h2 {
+    font-size: 1rem;
+}
+.p-descricao {
+    padding:0 25px 10px 25px;
+    line-height: 18px;
+}
+.div-change img {
+    transform: scale(0.9);
+}
+.div-change a{
+    margin-top:6px;
+    margin-left:15px;
+}
+.btn-confirmar {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 94%);
+}
+.btn-confirmar:hover {
+    background-color: hsl(224, 23%, 55%);
+}
+.btn-cancelar {
+    margin-bottom:10px;
+}
+
+h2, .p-descricao {
+    text-align: center;
+}
+.btn-confirmar,
+.btn-cancelar {
+    width:200px;
+    height:35px;
+    border: none;
+    border-radius:7px;
+}
+h2,
+.div-plano :first-child,
+.btn-cancelar:hover {
+    color: hsl(223, 47%, 23%);
+}
+.p-descricao, 
+.div-change a:hover,
+.div-change a:visited,
+.div-plano p:last-child,
+.btn-cancelar {
+    color: hsl(224, 23%, 55%);
+}
+.p-descricao,
+.div-change a,
+.div-plano p,
+.btn-confirmar,
+.btn-cancelar {
+    font-size:0.7rem;
+}
+.div-change,
+.btn-confirmar,
+.btn-cancelar {
+    margin: 0 auto;
+}
+.div-plano :first-child,
+.btn-confirmar,
+.btn-cancelar {
+    font-weight: 900;
+} 
+.card-container,
+.div-change {
+    display:flex;
+}
+
+.card-container,
+.div-change {
+    gap:15px;
+}
