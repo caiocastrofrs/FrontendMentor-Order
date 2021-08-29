@@ -5,7 +5,9 @@
     list-style: none;
 }
 body {
-    background-image: url('images/pattern-background-mobile.svg');
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 200%;
     font-size:16px;
     font-family: 'Red Hat Display', sans-serif;
 }
@@ -17,6 +19,7 @@ body {
     box-shadow: 1px 2px 5px hsl(224, 23%, 55%);
     max-width:250px;
     height:430px;
+    background-color: #fff;
 }
 
 .card-container img {
@@ -99,12 +102,16 @@ h2,
 }
 
 @media (min-width:768px){
+    body {
+        background-image: url(../images/pattern-background-desktop.svg);
+        background-size: 100%;
+    }
     .card-container {
         transform: scale(1.5);
         margin-top:200px;
     }
     .attribution {
         font-size:1.5rem;
-        margin:150px;
+        margin:120px;
     }
 }
