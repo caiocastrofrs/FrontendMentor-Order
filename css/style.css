@@ -44,12 +44,14 @@ h2 {
 .btn-confirmar {
     background-color: hsl(245, 75%, 52%);
     color: hsl(225, 100%, 94%);
+    transition: all .2s;
 }
 .btn-confirmar:hover {
     background-color: hsl(224, 23%, 55%);
 }
 .btn-cancelar {
     margin-bottom:10px;
+    transition: all .2s;
 }
 
 h2, .p-descricao {
